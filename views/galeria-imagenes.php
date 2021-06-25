@@ -62,7 +62,7 @@
                             <option value="3">Three</option>
                         </select>
                     </div>  
-                    <div class="col-12 ccol-md-3 col-xl-3">    
+                    <div class="col-12 col-md-3 col-xl-3">    
                         <label type="text" class="text-left ">Sub-linea</label>
                         <select class="form-select" aria-label="Default select example">
                             <option value="1">One</option>
