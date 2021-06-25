@@ -52,7 +52,6 @@
 
 
     <div class="container_asig_imagen">
-    <h1>prueba</h1>
         <div class="row">
             <div class="col-12 col-md-6 col-xl-6">
                <div class="row col-12 col-md-12 col-xl.12 ml-4">                  
