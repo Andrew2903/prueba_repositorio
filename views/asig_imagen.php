@@ -43,6 +43,7 @@
             </div>
             <div class="text-center col-12 col-md-4 col-xl-4">
                 <h1> Asignacion de Imagen </h1>
+                    <h2>prueba para git hub</h2>
             </div>
             <div class="login text-right col-12 col-md-4 col-xl-4">  
                 <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal3" >Cerrar sesion</button>    
