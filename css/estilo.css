@@ -172,8 +172,12 @@ form {
   text-decoration: none;
   color: #ffffff; }
 
+#menu-principal li {
+  border-radius: 5px; }
+
 #menu-principal ul a:hover {
   background: #82c41b;
+  border-radius: 5px;
   color: #011143;
   font-weight: bold; }
 
@@ -185,7 +189,7 @@ form {
   background: #011143;
   max-height: 0;
   overflow: hidden;
-  width: 230px;
+  width: 200px;
   margin: 1px 1px;
   -webkit-transition: all .7s;
   transition: all .7s; }
@@ -234,6 +238,9 @@ form {
             flex-direction: row;
     margin: 1px; }
 
+  #menu-principal li ul {
+    position: absolute; }
+
   #menu-principal ul li a {
     padding: .8rem;
     text-transform: capitalize; }
@@ -241,14 +248,19 @@ form {
   #menu-principal > ul > li {
     width: 80%;
     margin: 0 .6px;
-    border-radius: 5px; } }
-/*  @media(max-width:590px){   
-    #menu-principal ul{
-       justify-content: center;
-       align-items: stretch;
-       text-align: center;
-   }  
-}   */
+    border-radius: 5px; }
+
+  #menu-principal ul li ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+
+  #menu-principal ul ul ul {
+    top: 6.3rem;
+    left: 85%; } }
 /* ------------------------ASIGNACION DE IMAGEN------------------------ */
 .container_asig_imagen {
   border: 1px solid;
@@ -315,63 +327,5 @@ form {
   background: #011143;
   color: #fff;
   height: 2.2rem; }
-
-/* estilo anterior menu  */
-/* #menu-principal ul{ 
-    list-style: none;
-    padding: 0;     
-}
-#menu-principal li{
-    line-height: 3rem;
-    position: relative; 
-    border-radius: 5px;
-}
-#menu-principal li ul{
-    position: absolute;    
-}
-#menu-principal a{
-    color: $texto;
-    display: block;
-    padding: 0 2.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: .5s;
-}
-#menu-principal a:hover{
-    background: $secundario;
-    border-radius: 5px; 
-}  */
-/* Primer nivel */
-/* #menu-principal{    
-    background: $principal;
-    width: 100%;
-}
-#menu-principal> ul{
-    display: flex; 
-    justify-content: space-around;
-} */
-/* Segundo nivel */
-/* #menu-principal li li {
-    background: $principal;
-    max-height: 0; 
-    overflow: hidden; 
-    width: 230px;
-    margin: 1px 1px;
-    transition: all .7s; 
-}
-#menu-principal li:hover > ul > li{
-    color: $texto;
-    max-height: 1000px;
-    overflow: visible;
-}
-#menu-principal > li > ul{
-    top: 100%; 
-} */
-/* Tercer nivel */
-/* #menu-principal ul ul ul{
-    top: 0;
-    left: 100%;
-}
- */
 
 /*# sourceMappingURL=estilo.css.map */

@@ -60,7 +60,7 @@
                     <ul>
                         <li><a href="#">item 1</a></li>
                         <li><a href="#">item 2</a>
-                            <!-- <ul>
+                            <ul>
                                 <li><a href="#">sub_item 1</a></li>
                                 <li><a href="#">sub_item 2</a></li>
                                 <li><a href="#">sub_item 3</a>
@@ -69,12 +69,24 @@
                                         <li><a href="#">Sub_subitem 2</a></li>
                                         <li><a href="#">Sub_subitem 3</a></li>
                                     </ul>
-                                </li>
+                                </li>                                
                                 <li><a href="#">sub_item 4</a></li>
-                            </ul> -->
+                            </ul>
                         </li>
                         <li><a href="#">item 3</a></li>
-                        <li><a href="#">item 4</a></li>
+                        <li><a href="#">item 4</a>
+                            <ul>
+                                <li><a href="#">Sub_subitem 1</a></li>
+                                <li><a href="#">Sub_subitem 2</a>
+                                    <ul>
+                                        <li><a href="#">Sub_subitem 1</a></li>
+                                        <li><a href="#">Sub_subitem 2</a></li>
+                                        <li><a href="#">Sub_subitem 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub_subitem 3</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">item 5</a></li>
                     </ul>        
                 </nav> 
