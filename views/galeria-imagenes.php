@@ -56,7 +56,7 @@
                 <div class="row">       
                     <div class="col-12 col-md-3 col-xl-3">    
                         <label type="text" class="text-left ">Linea</label>
-                        <select class="form-select" aria-label="Default select example">
+                        <select class="form-select form-control mb-2" aria-label="Default select example">
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
@@ -64,7 +64,7 @@
                     </div>  
                     <div class="col-12 col-md-3 col-xl-3">    
                         <label type="text" class="text-left ">Sub-linea</label>
-                        <select class="form-select" aria-label="Default select example">
+                        <select class="form-select form-control mb-2" aria-label="Default select example">
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>

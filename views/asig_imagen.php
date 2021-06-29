@@ -42,7 +42,7 @@
                 <img src="../img/Logo Maviltex-02-02.png">
             </div>
             <div class="text-center col-12 col-md-4 col-xl-4">
-                <h1> Asignacion de Imagen </h1>
+                <h1 class="titulo_Asig_imagen"> Asignacion de Imagen </h1>
             </div>
             <div class="login text-right col-12 col-md-4 col-xl-4">  
                 <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal3" >Cerrar sesion</button>    
